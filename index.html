@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAMTECH</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="styles/css/style.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="logo-apple"></ion-icon>
+                        </span>
+                        <span class="title">LAMTECH</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Accueil</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="title">Nos Services</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                        </span>
+                        <span class="title">Boutique</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="help-outline"></ion-icon>
+                        </span>
+                        <span class="title">A Propos de nous</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="contact-outline"></ion-icon>
+                        </span>
+                        <span class="title">Nous contacter</span>
+                    </a>
+                </li>
+
+                
+
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            
+            <!-- ================ Details pages ================= -->
+            <div class="details">
+                
+                <section id="home">
+                    <img src="images/polytech.webp" alt="logopolytech" width="500">
+                    <div class="hero">
+                        <h2>Votre partenaire en maintenance industrielle, électronique et informatique</h2>
+                        <p>Des solutions de maintenance adaptées à vos besoins, sur site ou à distance.</p>
+                        <a href="formulaire.html" class="btn">Demander une assistance</a>
+                    </div>
+                </section>
+                <section id="services" class="container">
+                    <h2>Nos Services</h2>
+                    <div class="service">
+                        <a href="Nos_Service/mindustrielle.html"><h3>Maintenance industrielle</h3></a>
+                        <p>Réparations, optimisation et maintenance préventive de vos systèmes industriels.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Maintenance électronique</h3>
+                        <p>Diagnostic, réparation et mise à jour de systèmes électroniques.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Maintenance informatique</h3>
+                        <p>Gestion de vos réseaux, serveurs et systèmes informatiques.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Développement site web</h3>
+                        <p>Création de site web avec accompagnement formation et sa gestion.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Assistance technique</h3>
+                        <p>Assistance à domicile et à distance pour tous vos besoins techniques.</p>
+                    </div>
+                </section>
+                
+                <section id="about" class="container">
+                    <h2>À propos de POLYTECH</h2>
+                    <p>POLYTECH est spécialisé dans la maintenance industrielle, électronique et informatique, développement des site web et formation à distance avec des solutions sur mesure pour tous vos besoins techniques.</p>
+                </section>
+
+                <section id="contact" class="container">
+                    <h2>Contactez-nous</h2>
+                    <form action="submit-form.php" method="POST">
+                        <input type="text" name="name" placeholder="Votre nom" required>
+                        <input type="email" name="email" placeholder="Votre e-mail" required>
+                        <textarea name="message" placeholder="Votre message" required></textarea>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                    <div class="contact-info">
+                        <p>Adresse : Toukra, N'Djamena, Tchad</p>
+                        <p>Téléphone : +235 66 44 41 59</p>
+                        <p>Email : contact@lamtech.com</p>
+                        <p>Email : logamouf@gmail.com</p>
+                    </div>
+                </section>
+            
+                <footer>
+                    <div class="container">
+                        <p>&copy; 2024 POLYTECH. Tous droits réservés.</p>
+                    </div>
+                </footer>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ======= Charts JS ====== -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="assets/js/chartsJS.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
